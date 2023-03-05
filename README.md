@@ -1,95 +1,53 @@
-# Getting Started with Create React App
+## Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A blog application using the MERN stack (MongoDB, Express js, React js, and Node js).
 
-#### `client` - Holds the client application
-- #### `public` - This holds all of our static files
-- #### `src`
-    - #### `components`
-    - #### `store`
-    - #### `App.js`
-    - #### `index.js`
-- #### `package.json`
-#### `server` - Holds the server application
-- #### `.env`
-- #### `controllers`
-- #### `models`
-- #### `routes`
-- #### `app.js`
-#### `package.json`
-#### `.gitignore`
-#### `README` - This file!
+## Demo
 
-## Available Scripts
+![Image description](screenshot-1.png)
 
-In the project directory, you can run:
+This application is deployed on Heroku and can be accessed through the following link:
 
-### `npm start`
+[MERN Blog on Heroku](https://mern-blog-01.herokuapp.com/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Some of the technologies used in the development of this web application are as follow:
 
-### `npm test`
+-   [MongoDB Atlas](https://www.mongodb.com/cloud/atlas): It provides a free cloud service to store MongoDB collections.
+-   [React.js](https://reactjs.org/): A JavaScript library for building user interfaces.
+-   [Node.js](https://nodejs.org/en/): A runtime environment to help build fast server applications using JS.
+-   [Express.js](https://expressjs.com/): A popular Node.js framework to build scalable server-side for web applications.
+-   [Mongoose](https://mongoosejs.com/): An ODM(Object Data Modelling)library for MongoDB and Node.js
+-   [Heroku](http://heroku.com/): A platform(PaaS) to deploy full stack web applications for free.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+A blog app with the following features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Unlogged users can do the following:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- View all posts.
+- Signup or Login.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In addition to the above points, logged in users can do the following:
 
-### `npm run eject`
+- Login or logout.
+- Create a new post.
+- View/Edit/delete their posts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Database
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+All the models can be found in the models directory created using mongoose.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### User Schema:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- userName (String)
+- email (String)
+- password (String)
 
+### Post Schema:
 
-## Create Environment variable i.e .env file and asign following variables.
-
-DATABASE_URL = YOUR_MONGODB_URL\
-PORT = YOUR_PORT_NUMBER
-
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- title (String)
+- content (String)
+- imagePath (String)
