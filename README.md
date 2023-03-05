@@ -4,7 +4,7 @@ A blog application using the MERN stack (MongoDB, Express js, React js, and Node
 
 ## Demo
 
-![Image description](screenshot-1.png)
+![image](https://user-images.githubusercontent.com/85077087/222977075-494d7800-1baf-4d14-84c5-ca952663ff12.png)
 
 This application is deployed on Heroku and can be accessed through the following link:
 
