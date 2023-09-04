@@ -6,11 +6,11 @@ A blog application using the MERN stack (MongoDB, Express js, React js, and Node
 
 ![image](https://user-images.githubusercontent.com/85077087/222977075-494d7800-1baf-4d14-84c5-ca952663ff12.png)
 
-![Screenshot 2023-09-05 024420](https://github.com/rathi710/mern-blog-app/assets/85077087/361ab2a9-1db7-4385-8b2c-3a99623825e3)
-
 ![Screenshot (236)](https://github.com/rathi710/mern-blog-app/assets/85077087/a75638b3-5e9d-46ae-b394-de162d5e71e7)
 
 ![Screenshot (237)](https://github.com/rathi710/mern-blog-app/assets/85077087/8a88fcce-8782-413a-aa82-eeec3411e270)
+
+![Screenshot 2023-09-05 024420](https://github.com/rathi710/mern-blog-app/assets/85077087/361ab2a9-1db7-4385-8b2c-3a99623825e3)
 
 ## Technologies Used
 
