@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-client-deployement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: my-client
+  template:
+    metadata:
+      labels: 
+        name: my-client
+    spec:
+      containers:
+        - name: my-client-con
+          image: rathi101/mern-client:2
+          ports: 
+            - containerPort: 3000

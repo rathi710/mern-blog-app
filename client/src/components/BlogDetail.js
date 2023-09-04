@@ -20,7 +20,7 @@ function BlogDetail() {
 
   const fetchDetails = async () => {
     const res = await axios
-      .get(`http://localhost:8000/api/blog/${id}`)
+      .get(`http://localhost:7000/api/blog/${id}`)
       .catch((err) => console.log(err));
 
     const data = res.data;

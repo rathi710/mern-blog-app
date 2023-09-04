@@ -25,7 +25,7 @@ const Auth = () => {
 
   const sendRequest = async (type = "signin") => {
     const res = await axios
-      .post(`http://localhost:8000/api/user/${type}`, {
+      .post(`http://localhost:7000/api/user/${type}`, {
         name: inputs.name,
         email: inputs.email,
         password: inputs.password,

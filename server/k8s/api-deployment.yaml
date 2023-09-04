@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployement
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      name: my-api
+  template:
+    metadata:
+      labels: 
+        name: my-api
+    spec:
+      containers:
+        - name: my-api-con
+          image: rathi101/mern-api
+          ports: 
+            - containerPort: 8000
+          env:
+            - name: PORT
+              value: "8000"
+            - name: DATABASE_URL
+              value: "mongodb+srv://rathi710:snake@cluster0.wlqog95.mongodb.net/?retryWrites=true&w=majority" 
+          # envFrom:
+          #   - configMapRef:
+          #       name:  my-api-config 
+    
+  
