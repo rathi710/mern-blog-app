@@ -17,6 +17,8 @@ Some of the technologies used in the development of this web application are as 
 -   [Express.js](https://expressjs.com/): A popular Node.js framework to build scalable server-side for web applications.
 -   [Mongoose](https://mongoosejs.com/): An ODM(Object Data Modelling)library for MongoDB and Node.js
 -   [Heroku](http://heroku.com/): A platform(PaaS) to deploy full stack web applications for free.
+-   [Docker](https://www.docker.com/): A containerization platform that packages your application and its dependencies into a container for consistent and portable deployment.
+-   [Kubernetes](https://kubernetes.io/): An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
 
 ## Features
 
